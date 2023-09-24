@@ -1,0 +1,2 @@
+2023-09-24T20:06:00.713+0800	INFO	D:/workspace/golang/uber_zap_log/cmd/main.go:31	設置訊息紀錄類的log
+2023-09-24T20:06:00.713+0800	ERROR	D:/workspace/golang/uber_zap_log/cmd/main.go:32	設置ERROR訊息的log
