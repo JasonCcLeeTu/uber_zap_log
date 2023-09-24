@@ -26,7 +26,7 @@ func main() {
 	level := zapcore.DebugLevel                               //debug level 適合測試環境
 	core := zapcore.NewCore(encoder, multiWriteSyncer, level) //創建一個設定好的核心
 	option := zap.AddCaller()                                 //設置logger的option ,新增調用者的路徑,行數,函數名
-	logger := zap.New(core, option)
+	logger := zap.New(core, option)                           //產一個設定好內容格式的logger來記住log
 
 	logger.Info("設置訊息紀錄類的log")    //info代表訊息類
 	logger.Error("設置ERROR訊息的log") //error代表錯誤訊息
